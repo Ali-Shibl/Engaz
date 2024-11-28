@@ -1,0 +1,59 @@
+.logo{
+font-size: 24px;
+font-weight: 700;
+}
+.fromNav{
+    width:480px;
+    margin-left: 20px;
+}
+.fromNav input{
+    border: none;
+    outline: none;
+    background-color: rgba(223,223,223);
+    border-radius: 5px;
+}
+.iconSearch{
+    transition: .3s;
+    left: 15px;
+    font-size: 15px;
+    color: rgb(91, 5, 171);
+}
+
+.fromNav input:focus +span{
+    right: 7px;
+    font-size: 13px;
+    color: aliceblue;   
+}
+.fromNav input:focus {
+    color: white;
+    background-color: black;
+}
+.person{
+    
+    width: 40px;
+    height: 40px;
+}
+.icons{
+    color: rgb(91, 5, 171);
+
+    width: 32px;
+    height: 32px;
+    background-color: rgb(223, 223, 223);
+}
+@media screen and (min-width:992px) {
+    .icons{
+    
+        width: 40px;
+        height: 40px;
+    }
+    .fromNav{
+        width:300px;
+        margin-left: 80px;
+    }
+}
+@media screen and (min-width:1200px) {
+    .fromNav{
+        width:480px;
+        margin-left: 80px;
+    }
+}
